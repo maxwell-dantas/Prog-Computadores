@@ -29,7 +29,7 @@ O conteúdo está focado nas listas de desafios, e o progresso é acompanhado ab
 | ✅ **Lista 03** | Concluída | **Estruturas Condicionais (IF/ELSE)** |
 | ✅ **Lista 04** | Concluída | **Estruturas Condicionais (IF/ELSE)** |
 | ✅ **Lista 05** | Concluída | **Estruturas Condicionais (IF/ELSE)** |
-| 🔲 **Lista 06** | Em andamento | **Definição de Funções** |
+| ✅ **Lista 06** | Concluída | **Definição de Funções** |
 
 ---
 
