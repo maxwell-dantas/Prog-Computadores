@@ -1,13 +1,19 @@
 def lista_troca_menor_primeiro(lista):
-    indice = 0
+    cont_trocas = 0
+    cont = 0
     menor = lista[0]
-    troca = 0
+    posicao_menor = 0
+ 
     for i in lista:
-        if menor > i:
-            lista[indice] = i
-            troca += 1
-            indice += 1
-    return menor
-
-lista = list(map(int, input().split()))
-print(lista_troca_menor_primeiro(lista))
+        cont += 1
+        if i < menor:
+            menor = i
+            posicao_menor = cont - 1
+ 
+    if (lista[0]) > lista[posicao_menor]:
+        menor = lista[posicao_menor]
+        lista[posicao_menor] = lista[0]
+        lista[0] = menor
+        cont_trocas += 1
+ 
+    return cont_trocas
