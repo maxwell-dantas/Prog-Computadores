@@ -3,6 +3,8 @@
 # Assinatura da função: def ocorrencias(lista, x)
 
 def ocorrencias(lista, x):
+    if (len(lista) == 0):
+        return 0
     if (len(lista) == 1):
         if (lista[0] == x):
             return 1
