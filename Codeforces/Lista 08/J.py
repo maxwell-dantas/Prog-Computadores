@@ -1,28 +1,13 @@
-def cria_lista_id_voluntarios(numeracao):
-    lista_voluntarios_dive = []
-    for i in range(1, numeracao + 1):
-        lista_voluntarios_dive.append(i)
-    return lista_voluntarios_dive
+num_dive, num_return = map(int, input().split())
+retornou = list(map(int, input().split()))
+lista_id = []
+for i in range(1, num_dive + 1):
+    if i not in retornou:
+        lista_id.append(i)
+lista_id.sort()
 
-def retira_id_voluntarios(id_dive, id_true_return):
-    voluntarios_dive = cria_lista_id_voluntarios(id_dive)
-    qtd_voluntarios_true_return = id_true_return
-
-    conjunto_dive = set(voluntarios_dive)
-    conjunto_true_return = set(qtd_voluntarios_true_return)
-    diff = list(conjunto_dive - conjunto_true_return)
-
-    return diff
-    
-num_voluntarios_dive, num_voluntarios_return = map(int, input().split())
-num_voluntarios_true_return = list(map(int, input().split()))
-
-not_voluntarios_return = retira_id_voluntarios(num_voluntarios_dive, num_voluntarios_true_return)
-not_voluntarios_return.sort()
-print(not_voluntarios_return)
-
-if len(not_voluntarios_return) == 0:
+if len(lista_id) == 0:
     print("*")
 else:
-    for i in not_voluntarios_return:
+    for i in lista_id:
         print(i, end=" ")
