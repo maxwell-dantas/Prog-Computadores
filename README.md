@@ -32,7 +32,8 @@ O conteúdo está focado nas listas de desafios, e o progresso é acompanhado ab
 | ✅ **Lista 06** | Concluída | **Definição de Funções** |
 | ✅ **Lista 07** | Concluída | **Estrutura Repetitiva - FOR** |
 | ✅ **Lista 08** | Concluída | **Estrutura Repetitiva - WHILE** |
-| ✅ **Lista 09** | Em andamento | **Questões Contextualizadas** |
+| ✅ **Lista 09** | Concluída | **Questões Contextualizadas** |
+| ✅ **Lista 10** | Concluída | **Questões Contextualizadas** |
 
 ---
 
